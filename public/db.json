@@ -1,0 +1,39 @@
+{"mobiles": [{
+  "id":1,
+  "Series":"Model: 15 Pro Max",
+  "Brand": "Brand : Apple",
+  "Storage": "Storage : 256 Gb",
+  "IMEI": "IMEI : 53208651320",
+  "Price": "price: 1500"
+},
+{
+  "id":2,
+  "Series":"Model: 15 Pro ",
+  "Brand": "Brand : Apple",
+  "Storage": "Storage : 256 Gb",
+  "IMEI": "IMEI : 53208651322",
+  "Price": "price: 1400"
+},
+{
+  "id":3,
+  "Series":"Model: 15 Plus",
+  "Brand": "Brand : Apple",
+  "Storage": "Storage : 256 Gb",
+  "IMEI": "IMEI : 53208651366",
+  "Price": "price: 1000"
+},
+{
+  "id":4,
+  "Series":"Model: 15 ",
+  "Brand": "Brand : Apple",
+  "Storage": "Storage : 256 Gb",
+  "IMEI": "IMEI : 53208651358",
+  "Price": "price: 800"
+},
+{
+  "Series":"Model: 14 Pro Max",
+  "Brand": "Brand : Apple",
+  "Storage": "Storage : 256 Gb",
+  "IMEI": "IMEI : 53208651394",
+  "Price": "price: 1200"
+}]}
