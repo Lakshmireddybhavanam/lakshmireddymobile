@@ -1,1 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Resume</title>
+</head>
+<body>
 
+<div class="container">
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#socialmedia">Socialmedia</a>
+    </nav>
+<div id="About" >
+        <img src="https://th.bing.com/th/id/OIP.5n41jHLjCl7Fk1NBVLkepgHaHa?w=162&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="My Image">
+        <p><b>Lakshmi Reddy Bhavanam</b></p>
+        <p><b>Full Stack Developer</b></p>
+</div>
+<div id='skills'>
+    <h1>Skills</h1>
+    <ul>
+        <li>C/C++</li>
+        <li>JAVA</li>
+        <li>DATA STRUCTURES</li>
+        <li>WEB DEVELOPMENT</li>
+        <li>MYSQL/ORACLE</li>
+        <li>AWS</li>
+        <li>SALESFORCE</li>
+        <li>RPA</li>
+    </ul>
+</div>
+
+<div id="p1">
+    <h1>Project-1</h1>
+    <img src="https://th.bing.com/th?id=OIP.7Ko3kUyXc_yTiG-O68YLdgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Image Description 1">
+    <p><b>SAS PLACEMENT MANAGEMENT SYSTEM</b></p>
+    <p>Used for placement activities</p>
+</div>
+<div id="p2">
+    <h1>Project-2</h1>
+    <img src="https://th.bing.com/th?id=OIP.7Ko3kUyXc_yTiG-O68YLdgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Image Description 2">
+    <p><b>VEHICLE MANAGEMENT SYSTEM</b></p>
+    <p> Used for movie tickets booking</p>
+</div>
+<div id="p3">
+    <h1>Project-3</h1>
+    <img src="https://th.bing.com/th?id=OIP.7Ko3kUyXc_yTiG-O68YLdgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Image Description 2">
+    <p><b>RENTAL MANAGEMENT SYSTEM</b></p>
+    <p>Used for manage the rental cars</p>
+</div>
+
+
+<div id='experience'>
+    <h2>EXPERIENCE:</h2>
+    <h4>Intern | Suven ConsultantsTechnology Pvt.ltd</h4>
+    <p>This is a 5 week program in which web developer angular based web applications which also involves training.We have developed three projects using angular.</p>
+</div>
+
+<div id='education'>
+    <h2>EDUCATION:</h2>
+    <ul>
+        <li>Graduate: University of New Haven ,GPA:4/4 UPTO 1st Semester</li>
+        <li>Under Graduate: KL University ,GPA:8.81/10</li>
+        <li>Intermediate: NRI Junior College ,GPA:9.86/10</li>
+        <li>SSC: Sri Bala Chandra High School ,GPA 9.5/10</li>
+    </ul>
+</div>
+
+<div id='blogs'>
+    <h2>Blogs:</h2>
+    <ul>
+        <li>I want to write a blog regarding cyber threat in future.</li>
+        <li>I want to write a blog regarding cyber threat in future.</li>
+        <li>I want to write a blog regarding cyber threat in future.</li>
+    </ul>
+</div>
+
+<div id='socialmedia'>
+    <h2>Socialmedia:</h2>
+    <img src="https://th.bing.com/th/id/R.8fc37b74b608a622588fbaa361485f32?rik=a08AouJXaFASlA&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-mail-iconsymbolsiconsapple-iosiosios-8-iconsios-8-721522596075clftr.png&ehk=u6ExPi0jPv3bkQ5VOWLBuHM7EWesij9zAOMqmiNk8H8%3d&risl=&pid=ImgRaw&r=0" alt="Mail">
+    <img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG14.png" alt="LinkedIn">
+    <img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG14.png" alt="GitHub">
+</div>
+</div>
+
+</body>
+<style>
+       
+:root
+{
+
+    --main-radius: 5px;
+    --main-padding:5px;
+    --blue: #1e90ff;
+    --white: #ffffff; 
+    --yellowish: #F7C600;
+    --green:#07dd3d;
+    --pink:#821d6f;
+    --TealGreen:#167D7F;
+    --Spearmint:#98D7C2;
+}
+    
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 1fr 1fr 1fr 1.1fr;
+    grid-template-areas:
+    "nav nav nav "
+    "About skills skills"
+    "p1 p2 p3"
+    "experience experience experience"
+    "education education education"
+    "blogs blogs blogs"
+    "socialmedia socialmedia socialmedia";
+    height: 100vh;
+    color: antiquewhite;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 1EM; 
+    grid-gap:0.5rem;
+}
+    
+nav{
+    background-color: #5cd3ee;
+    grid-area:nav;
+    border-radius: var(--main-radius);
+    padding: 6px;
+    overflow: hidden;
+    height: 2.3em;
+    @media (min-width: 500px){
+            padding: 20px;
+        }
+}
+
+nav a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    padding: 9px 16px;
+    font-size: large;
+}
+    
+    
+#About{
+    background:#d9e5ee;
+    grid-area: About;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+    text-align: center;
+    color:black;
+    align-items: center;
+}
+    
+#skills{
+    background:rgb(156, 164, 170);
+    grid-area: skills;
+    color: rgb(13, 132, 151);
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+}
+    
+#p1{
+    background:#b5b1b0;
+    grid-area: p1;
+    color: black;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+}
+    
+#p2{
+    background: #b5b1b0;
+    grid-area: p2;
+    color: black;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+}
+    
+#p3{
+    background:#b5b1b0;
+    grid-area: p3;
+    color: black;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+}
+    
+#p1,#p2,#p3 p{
+    text-align: center;
+}
+    
+#p1 img{
+     width: 250px; 
+     margin: 10px;
+}
+    
+#p2 img{
+    width: 250px; 
+    margin: 10px;
+}
+    
+#p3 img{
+    width: 250px; 
+    margin: 10px;
+}
+#p3 h1{
+    text-align: center;
+}
+#experience{
+    background: #C4DBE0;
+    grid-area:experience;
+    color: #010609;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+}
+    
+#education{
+    background:#ECFDF1;
+    grid-area: education;
+    color: black;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+}
+    
+#blogs{
+    background: #B4F8C8;
+    grid-area: blogs;
+    color: #0f0e0e;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+}
+    
+#socialmedia{
+    background:#96AD90;
+    grid-area: socialmedia;
+    color: #141515;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+}
+    
+    
+#skills{
+    color: black;
+    padding-top: 20px;
+        
+}
+    
+#socialmedia img {
+    width: 100px; 
+    height: auto; 
+    margin: 10px;; 
+        
+}
+    
+#About img {
+    width: 160px; 
+    height: auto; 
+    margin: 10px;; 
+        
+}    
+body {
+       background-color: hsl(224, 33%, 31%);
+}
+    
+</style>
+</html>
